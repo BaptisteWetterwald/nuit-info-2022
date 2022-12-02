@@ -13,6 +13,10 @@ You must have installed `docker` and `docker-compose` in order to run correctly 
 
 Vous devez d'abord installer `docker` et `docker-compose` pour pouvoir lancer correctement le conteneur.
 
+## Demo
+
+Link : http://bwetterwald.fr/
+
 <!-- Installation -->
 ## Installation
 
@@ -53,7 +57,3 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## Authors
