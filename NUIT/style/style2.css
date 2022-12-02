@@ -14,14 +14,24 @@
     transition: 100ms;
 }
 
-span{
+#span{
     position: fixed;
     font-size: 110px;
     z-index: 45;
     text-align: center;
     color: #FF9494;
     text-shadow: 5px 5px 5px black;
-    margin-top: -150px;
+    margin-top: -400px;
+    visibility: visible;
+}
+
+#span2{
+    position: fixed;
+    font-size: 50px;
+    z-index: 45;
+    text-align: center;
+    color: #FF9494;
+    margin-top: -160px;
     visibility: visible;
 }
 
@@ -35,7 +45,7 @@ button{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 #play{
