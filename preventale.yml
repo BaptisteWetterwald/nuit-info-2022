@@ -1,0 +1,13 @@
+---
+version: "1.0"
+services:
+  piwigo:
+    image: thelulu379/nuit_info_2022:latest
+    container_name: piwigo
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Paris
+    ports:
+      - 80:80
+    restart: unless-stopped
