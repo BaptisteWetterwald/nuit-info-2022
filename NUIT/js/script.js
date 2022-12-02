@@ -16,6 +16,7 @@ perso1.addEventListener('click', ()=>{
     all.style.visibility = 'hidden';
     perso.style.visibility = 'hidden';
     fond.style.filter = 'none';
+    window.location = 'jeu.html';
 });
 
 perso2.addEventListener('click', ()=>{
@@ -23,6 +24,7 @@ perso2.addEventListener('click', ()=>{
     all.style.visibility = 'hidden';
     perso.style.visibility = 'hidden';
     fond.style.filter = 'none';
+    window.location = 'jeu.html';
 });
 
 retour.addEventListener('click', ()=>{
@@ -33,3 +35,4 @@ retour.addEventListener('click', ()=>{
 function visible(){
     perso.style.visibility = 'visible'
 }
+

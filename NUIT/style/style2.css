@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* JEU */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFF5E4;
+}
+
+.container img{
+    height: 180px;
+    border-radius: 40px;
+    padding: 20px 40px;
+    transition: 100ms;
+}
+
+.stand{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+    flex-direction: row;
+    height: 90%;
+    width: 90%;
+}
+
+.gauche, .centre, .droite{
+    display: flex;
+    flex-direction: column;
+    gap: 210px;
+}
+
+#ist:hover, #fete:hover, #couple:hover, #nurse:hover, #personne:hover{
+    box-shadow: 8px 8px 8px grey;
+    background-color: #FFE3E1;
+    scale: 1.1;
+}
