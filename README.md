@@ -45,7 +45,6 @@ Vous devez d'abord installer `docker` et `docker-compose` pour pouvoir lancer co
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- USAGE EXAMPLES -->
 #### Usage
 
