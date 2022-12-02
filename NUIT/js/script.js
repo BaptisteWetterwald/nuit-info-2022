@@ -6,6 +6,15 @@ var all = document.getElementById("header");
 var perso1 = document.getElementById("perso1");
 var perso2 = document.getElementById("perso2");
 
+const loader = document.querySelector('.loader');
+
+window.addEventListener('load', () => {
+
+    loader.classList.add('fondu-out');
+    setTimeout(visible2, 3000);
+
+});
+
 btn.addEventListener('click', ()=>{
     btn.style.transform = 'translateY(200px)';
     setTimeout(visible, 250);
@@ -34,5 +43,9 @@ retour.addEventListener('click', ()=>{
 
 function visible(){
     perso.style.visibility = 'visible'
+}
+
+function visible2(){
+    loader.style.visibility = 'hidden';
 }
 
