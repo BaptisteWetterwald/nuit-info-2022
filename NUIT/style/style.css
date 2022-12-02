@@ -75,7 +75,7 @@ body{
 
 .fondu-out {
     opacity: 0;
-    transition: opacity 3s ease-out;
+    transition: opacity 2s ease-out;
 }
 
 /* HEADER */
