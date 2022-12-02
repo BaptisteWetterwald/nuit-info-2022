@@ -1,28 +1,28 @@
-# nuit-info-2022
+# Nuit de l'info 2022
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- G -->
+## About
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Ce serious game a été produit en une nuit par un groupe de sept étudiants. Il a pour objectif de sensibiliser de manière ludique les adolescents et les jeunes adultes aux enjeux de la santé sexuelle : IST, acceptation de soi, contraception, ...
 
-### Prerequisites
+This serious game hase been produced in one night by a team of seven students. It aims to raise awareness in a fun way on various topics around sexuality : Sexual Transmitted Infections, self-acceptance, contraception, ...
 
-You must have installed docker and docker-compose in order to run correctly the container.
+#### Prerequisites
 
+You must have installed `docker` and `docker-compose` in order to run correctly the container.
+
+Vous devez d'abord installer `docker` et `docker-compose` pour pouvoir lancer correctement le conteneur.
 
 <!-- Installation -->
 ## Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-#### via docker-run
+##### via docker-run
 
   ```sh
   docker run -p 80:80 thelulu379/nuit_info_2022
   ```
 
-#### via docker-compose
+##### via docker-compose
 
   ```sh
   ---
@@ -45,9 +45,8 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- USAGE EXAMPLES -->
-## Usage
+#### Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
