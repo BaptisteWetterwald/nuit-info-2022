@@ -1,7 +1,5 @@
 # nuit-info-2022
 
-#Installation
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -12,6 +10,8 @@ To get a local copy up and running follow these simple example steps.
 
 You must have installed docker and docker-compose in order to run correctly the container.
 
+
+<!-- Installation -->
 ## Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
