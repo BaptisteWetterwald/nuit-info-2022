@@ -1,14 +1,14 @@
 # nuit-info-2022
 
-<!-- Installation -->
+#Installation
 
-####via docker-run
+##via docker-run
 
   ```sh
   docker run -p 80:80 thelulu379/nuit_info_2022
   ```
 
-###via docker-compose
+##via docker-compose
 
   ```sh
   ---
